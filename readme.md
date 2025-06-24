@@ -59,33 +59,24 @@ http://localhost:80
 - Flask receives it and processes the message using routing logic.
 
 - 🤖 Response Generation
-The bot chooses how to respond based on:
+- The bot chooses how to respond based on:
 
-💬 OpenAI GPT for dynamic AI-powered replies
-📊 Google Sheets for predefined templates or logs
-🌐 WordPress integration (optional)
-📁 Local template files for static responses
+- 💬 OpenAI GPT for dynamic AI-powered replies
+- 📊 Google Sheets for predefined templates or logs
+- 🌐 WordPress integration (optional)
+- 📁 Local template files for static responses
 
-🔀 Smart Routing
+- 🔀 Smart Routing
+
 Functions like check_zeus_inquery() and check_troubleshoot_inquery() analyze the message content to determine the best response source.
-
-### 📁 Project Structure
-.
-├── app.py                  # Flask server with webhook logic
-├── bot.py                  # Core logic for AI responses
-├── utils.py                # Helpers: routing, sending, matching
-├── templates/              # Local static templates (optional)
-├── .env                    # Environment variables (excluded from git)
-├── requirements.txt        # Python dependencies
-└── README.md               # This file
 
 ### 🛠 Features
 
-✅ WhatsApp integration via waapi.app
-✅ GPT-powered replies using OpenAI API
-✅ Google Sheets integration for response templates
-✅ Local static reply support (JSON/text)
-✅ Optional WordPress content integration
-✅ Modular codebase for easy customization
-✅ Runs locally on port 80 with public access via ngrok
+- ✅ WhatsApp integration via waapi.app
+- ✅ GPT-powered replies using OpenAI API
+- ✅ Google Sheets integration for response templates
+- ✅ Local static reply support (JSON/text)
+- ✅ Optional WordPress content integration
+- ✅ Modular codebase for easy customization
+- ✅ Runs locally on port 80 with public access via ngrok
 
