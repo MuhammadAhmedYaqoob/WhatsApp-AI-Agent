@@ -1,0 +1,8 @@
+__pycache__
+.venv
+chroma_db
+.ipynb_checkpoints
+notebooks
+*.pdf
+.env
+zeus-registration-form-0250d4aaef74.json
